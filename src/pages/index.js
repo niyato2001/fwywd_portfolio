@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import indexPage from './header'
+import Header from '../components/header'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <indexPage/>
-          <p>ABC</p>
+
+    <div>
       <Head>
-
       </Head>
-
+      <div>
+        <Header/>
+      </div>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}

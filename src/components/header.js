@@ -2,26 +2,37 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
-function indexPage(){
-    return(
+const Header = () => (
         <div>
-            <div id="container" absolute left-0 top-0 h-16 w-16>
-                <Image src="/logo.png" alt="Head log" width={200} height={100}/>
+            <div>
+                <Image src="/logo.png" alt="Head log" width={200} height={100} float-left/>
             </div>
+
+            <div>
+                <ul  style-none>
+                <li float-right>
                 <Link href="#about">
                     <a>ABOUT</a>
                 </Link>
+                </li>
+                <li>
                 <Link href="#skills">
                     <a>SKILLS</a>
                 </Link>
+                </li>
+                <li>
                 <Link href="#values">
                     <a>VALUES</a>
                 </Link>
+                </li>
+                <li>
                 <Link href="#future">
                     <a>FUTURE</a>
-                </Link>   
+                </Link>
+                </li>
+                </ul>
+            </div>       
         </div>
-    )
-};
+    );
 
-export default indexPage;
+export default Header;
