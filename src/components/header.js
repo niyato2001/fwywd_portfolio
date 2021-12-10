@@ -9,24 +9,24 @@ const Header = () => (
                 <Image src="/logo.png" alt="Head log" width={192} height={96} />
             </div>
 
-            <div className="">
-                <ul  className="float-right text-green-font px-4 py-6 flex h-24">
-                <li className="float-left table-cell align-middle">
+            <div className="float-right">
+                <ul  className="text-green-font h-24 flex items-center">
+                <li className="mx-2">
                 <Link href="#about">
                     <a className="">ABOUT</a>
                 </Link>
                 </li>
-                <li className="float-left table-cell align-middle">
+                <li className="mx-2">
                 <Link href="#skills">
                     <a className="">SKILLS</a>
                 </Link>
                 </li>
-                <li className="float-left table-cell align-middle">
+                <li className="mx-2">
                 <Link href="#values">
                     <a className="">VALUES</a>
                 </Link>
                 </li>
-                <li className="float-left table-cell align-middle">
+                <li className="mx-2">
                 <Link href="#future">
                     <a className="">FUTURE</a>
                 </Link>
