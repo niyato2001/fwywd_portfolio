@@ -6,7 +6,7 @@ const Header = () => (
     <div>
         <div className="overflow-hidden w-full h-24">
             <div className="float-left">
-                <Image src="/logo.png" alt="Head log" width={192} height={96} />
+                <Image src="/introduction/logo.png" alt="Head log" width={192} height={96} />
             </div>
 
             <div className="float-right mr-2">
@@ -44,7 +44,7 @@ const Header = () => (
                         </h2>
                 </div>
                 <div className="ml-auto mr-12 py-12">
-                    <Image src="/hero.png" alt="header" width={560} height={480}/>
+                    <Image src="/introduction/hero.png" alt="header" width={560} height={480}/>
                 </div>
             
         </div>      
