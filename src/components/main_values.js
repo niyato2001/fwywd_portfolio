@@ -1,5 +1,7 @@
-const Values = () => (
+const Values = () => {
 
-    );
+
+
+};
     
     export default Values;
