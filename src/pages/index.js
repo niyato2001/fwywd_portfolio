@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
       </Head>
-        <Header/>
+      <Header/>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
@@ -69,7 +69,7 @@ export default function Home() {
       </main>
 
       
-        <Footer />
+      <Footer />
       
     </div>
   )

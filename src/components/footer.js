@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 
 const Footer = () => (
-        <div className="bg-black text-center w-full h-auto text-white">
+        <div className="bg-black-bg text-center w-full h-auto text-white">
             <div>
                     <div className="items-center ml-auto mr-auto my-10 tracking-wide">
                         <span className="text-xs mx-1">CREATED BY</span>
@@ -24,7 +24,7 @@ const Footer = () => (
                 </div>
             </div>
             <div>
-                    <p className="tracking-wider mb-16">© 2021 KIKAGAKU</p>
+                    <p className="tracking-wider pb-4">© 2021 KIKAGAKU</p>
             </div>
             
         </div>
