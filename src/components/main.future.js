@@ -1,4 +1,7 @@
 const Future = () => (
+    <div>
+        
+    </div>
 
     );
     

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/footer'
 import Image from 'next/image'
 import Header from '../components/header'
+import Main from '../components/main'
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Head>
       </Head>
       <Header/>
+
+      <Main/>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}

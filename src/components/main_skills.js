@@ -1,4 +1,7 @@
 const Skills = () => (
+    <div>
+        
+    </div>
 
     );
     
