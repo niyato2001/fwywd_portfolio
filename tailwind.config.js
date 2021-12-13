@@ -17,6 +17,9 @@ module.exports = {
           line:'#c5eaea',
         }
       },
+      backgroundImage: {
+        'future': "url('/introduction/bg-future.png')",
+      }
     },
   },
   variants: {
