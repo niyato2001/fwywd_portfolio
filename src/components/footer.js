@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Footer = () => (
         <div className="bg-black-bg text-center w-full h-auto text-white">
             <div>
-                    <div className="ml-auto mr-auto my-10 tracking-wide">
+                    <div className="ml-auto mr-auto mb-10 tracking-wide">
                         <span className="text-xs mx-1 align-middle">CREATED BY</span>
                         <span className="mx-1 font-bold align-middle">田原 純平</span>
                     </div>
