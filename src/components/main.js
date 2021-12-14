@@ -12,3 +12,14 @@ const Main = () => (
 );
 
 export default Main;
+import Future from './main.future'
+
+const Main = () => (
+    <div>
+        <About/>
+
+
+    </div>
+);
+
+export default Main;

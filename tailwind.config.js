@@ -4,6 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage:{
+        'about-bg':"url('/introduction/bg-about.png')"
+
+      },
       colors:{
         black:{
           font:'#384359',

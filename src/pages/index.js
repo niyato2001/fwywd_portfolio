@@ -12,6 +12,8 @@ export default function Home() {
       <Head>
       </Head>
       <Header/>
+
+      <Main/>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}

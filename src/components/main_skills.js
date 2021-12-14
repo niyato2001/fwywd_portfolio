@@ -1,4 +1,7 @@
-const Skills = () => {
+const Skills = () => (
+    <div>
+        
+    </div>
 
 };
     
