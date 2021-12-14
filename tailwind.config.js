@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'about-bg':"url('/introduction/bg-about.png')"
-
+        'about-bg':"url('/introduction/bg-about.png')",
+        'future': "url('/introduction/bg-future.png')"
       },
       colors:{
         black:{
@@ -21,9 +21,7 @@ module.exports = {
           line:'#c5eaea',
         }
       },
-      backgroundImage: {
-        'future': "url('/introduction/bg-future.png')",
-      }
+      
     },
   },
   variants: {
