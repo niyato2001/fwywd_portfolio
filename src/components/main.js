@@ -6,19 +6,8 @@ import Future from './main_future'
 
 const Main = () => (
     <div className='w-full'>
-
+        <About />
         <Future />
-    </div>
-);
-
-export default Main;
-import Future from './main.future'
-
-const Main = () => (
-    <div>
-        <About/>
-
-
     </div>
 );
 
