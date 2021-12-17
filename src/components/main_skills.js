@@ -50,8 +50,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className='h-96'></div>
-      <div className='h-48'></div>
     </div>
   );
 };
