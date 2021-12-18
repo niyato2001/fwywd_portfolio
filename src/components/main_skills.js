@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Skills = () => {
   return (
-    <div id='skills' className='bg-skills -mt-12'>
-      <div className='w-2/3 h-auto flex mx-auto py-32'>
+    <div id='skills' className='h-auto bg-skills -mt-12 bg-cover'>
+      <div className='w-2/3 flex mx-auto py-32'>
         <div className='items-center w-1/2 mt-16 mx-7'>
           <Image src='/introduction/skill.png' alt='skill' width={535} height={372} />
         </div>
@@ -50,6 +50,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <div className='h-10'></div>
     </div>
   );
 };
