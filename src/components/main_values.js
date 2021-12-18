@@ -7,7 +7,7 @@ const Values = () => {
         <div className='text-center py-12 mb-10'>
           <h2
             id='values'
-            className='text-black-font inline font-extrabold mr-4 text-3xl align-middle tracking-widest'
+            className='text-black-font inline font-extrabold mr-4 text-3xl align-middle tracking-widest font-mono'
           >
             価値観
           </h2>

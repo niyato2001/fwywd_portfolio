@@ -8,7 +8,7 @@ const Skills = () => {
           <Image src='/introduction/skill.png' alt='skill' width={535} height={372} />
         </div>
         <div className='items-center w-1/2'>
-          <h1 className='inline w-1/2 text-black-font text-3xl font-bold mx-1 align-middle tracking-widest'>
+          <h1 className='inline w-1/2 text-black-font text-3xl font-bold mx-1 align-middle tracking-widest font-mono'>
             スキル
           </h1>
           <p className='inline w-1/2 text-green-font font-semibold mx-1 align-middle tracking-wider'>
