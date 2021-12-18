@@ -5,7 +5,7 @@ const Footer = () => (
     <div>
       <div className='ml-auto mr-auto py-10 tracking-wide'>
         <span className='text-xs mx-1 align-middle'>CREATED BY</span>
-        <span className='mx-1 font-bold align-middle'>田原 純平</span>
+        <span className='mx-1 font-bold align-middle'>名前 太郎</span>
       </div>
     </div>
     <div className='my-3'>
