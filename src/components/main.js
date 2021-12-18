@@ -8,6 +8,7 @@ const Main = () => (
   <div className='w-full'>
     <About />
     <Skills />
+    <Values />
     <Future />
   </div>
 );
