@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Values = () => {
   return (
-    <div className='-mb-60'>
+    <div id='values' className='-mb-60'>
       <div className='w-2/3 mx-auto bg-white'>
         <div className='text-center py-12 mb-10'>
           <h2

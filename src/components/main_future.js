@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const Future = () => (
-  <div id='future' className='h-auto w-full bg-future bg-cover'>
+  <div className='h-auto w-full bg-future bg-cover'>
     <div className='h-96'></div>
     <div className='h-auto'></div>
     <div className='w-3/5 mx-auto pb-11 flex'>
       <div className='w-1/2 h-auto items-end'>
-        <div className=''>
+        <div id='future' className=''>
           <h2 className='text-black-font inline font-extrabold mr-4 text-3xl align-middle tracking-widest'>
             3年後にやりたいこと
           </h2>
