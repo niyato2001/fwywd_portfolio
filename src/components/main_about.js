@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const About = () => (
-  <div className='bg-about-bg bg-cover'>
+  <div id='about' className='bg-about-bg bg-cover'>
     <div className='w-72 py-20 mx-auto text-center'>
       <h1 className='inline w-1/2 text-black-font text-3xl font-bold mx-1 align-middle tracking-widest font-mono'>
         私について
