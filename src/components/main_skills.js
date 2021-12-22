@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ProgressBar from './progressbar';
 
 const Skills = () => {
   return (
@@ -14,39 +15,15 @@ const Skills = () => {
           <p className='inline w-1/2 text-green-font font-semibold mx-1 align-middle tracking-wider'>
             SKILLS
           </p>
-          <p className='text-black-font tracking-widest text-base leading-loose mt-5'>
+          <p className='text-black-font tracking-widest text-base leading-loose my-5'>
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
           <div className='bg-white p-7'>
-            <p className='text-green-font font-semibold tracking-wider'>SKILLSKILL</p>
-            <div className='flex items-center'>
-              <div className='w-full h-3.5 bg-green-prolight rounded'>
-                <div className='h-3.5 bg-green-prodark w-2/5 rounded-l'></div>
-              </div>
-              <span className=' text-green-font tracking-wider mx-4'>40%</span>
-            </div>
-            <p className='text-green-font font-semibold tracking-wider'>SKILLSKILL</p>
-            <div className='flex items-center'>
-              <div className='w-full h-3.5 bg-green-prolight rounded'>
-                <div className='h-3.5 bg-green-prodark w-2/5 rounded-l'></div>
-              </div>
-              <span className=' text-green-font tracking-wider mx-4'>40%</span>
-            </div>
-            <p className='text-green-font font-semibold tracking-wider'>SKILLSKILL</p>
-            <div className='flex items-center'>
-              <div className='w-full h-3.5 bg-green-prolight rounded'>
-                <div className='h-3.5 bg-green-prodark w-2/5 rounded-l'></div>
-              </div>
-              <span className=' text-green-font tracking-wider mx-4'>40%</span>
-            </div>
-            <p className='text-green-font font-semibold tracking-wider'>SKILLSKILL</p>
-            <div className='flex items-center'>
-              <div className='w-full h-3.5 bg-green-prolight rounded'>
-                <div className='h-3.5 bg-green-prodark w-2/5 rounded-l'></div>
-              </div>
-              <span className=' text-green-font tracking-wider mx-4'>40%</span>
-            </div>
+            <ProgressBar name='SKILLSKILL' percent='40%' />
+            <ProgressBar name='SKILLSKILL' percent='40%' />
+            <ProgressBar name='SKILLSKILL' percent='40%' />
+            <ProgressBar name='SKILLSKILL' percent='40%' />
           </div>
         </div>
       </div>
