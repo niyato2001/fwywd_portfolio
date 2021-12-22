@@ -1,4 +1,11 @@
 import Image from 'next/image';
+import Value from './values_component';
+
+const valueList = [
+  { src: '/introduction/value1.png', alt: 'value1', name: '価値観01' },
+  { src: '/introduction/value2.png', alt: 'value2', name: '価値観02' },
+  { src: '/introduction/value3.png', alt: 'value3', name: '価値観03' },
+];
 
 const Values = () => {
   return (
@@ -16,40 +23,13 @@ const Values = () => {
         <div className='bg-white'>
           <div className='flex text-center bg-white'>
             <div className='w-1/3 h-auto px-8 border-r-2 border-green-line bg-white'>
-              <div>
-                <Image src='/introduction/value1.png' alt='value1' width={200} height={200} />
-              </div>
-              <p className='py-5 text-extrabold tracking-wider text-lg'>価値観01</p>
-              <div className='text-black-font leading-loose items-center text-sm tracking-widest text-left'>
-                <p className=''>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-              </div>
+              <Value src={valueList[0].src} alt={valueList[0].alt} name={valueList[0].name} />
             </div>
             <div className='w-1/3 h-auto px-8 border-r-2 border-green-line bg-white'>
-              <div>
-                <Image src='/introduction/value2.png' alt='value2' width={200} height={200} />
-              </div>
-              <p className='py-5 text-extrabold tracking-wider text-lg'>価値観02</p>
-              <div className='text-black-font leading-loose items-center text-sm tracking-widest text-left'>
-                <p className=''>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-              </div>
+              <Value src={valueList[1].src} alt={valueList[1].alt} name={valueList[1].name} />
             </div>
             <div className='w-1/3 h-auto px-8 bg-white'>
-              <div>
-                <Image src='/introduction/value3.png' alt='value3' width={200} height={200} />
-              </div>
-              <p className='py-5 text-extrabold tracking-wider text-lg'>価値観03</p>
-              <div className='text-black-font leading-loose items-center text-sm tracking-widest text-left'>
-                <p className=''>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-              </div>
+              <Value src={valueList[2].src} alt={valueList[2].alt} name={valueList[2].name} />
             </div>
           </div>
           <div className='relative z-10 h-10 bg-white rounded-b-lg'></div>
