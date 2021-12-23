@@ -1,14 +1,12 @@
 import Image from 'next/image';
+import Headline from './headline_component';
+
+const headName = { japanese: '私について', english: 'ABOUT' };
 
 const About = () => (
   <div id='about' className='bg-about-bg bg-cover'>
     <div className='w-72 py-20 mx-auto text-center'>
-      <h1 className='inline w-1/2 text-black-font text-3xl font-bold mx-1 align-middle tracking-widest font-mono'>
-        私について
-      </h1>
-      <p className='inline w-1/2 text-green-font font-semibold mx-1 align-middle tracking-wider'>
-        ABOUT
-      </p>
+      <Headline japanese={headName.japanese} english={headName.english} />
     </div>
     <div className='w-2/3 h-96 flex mx-auto items-end text-center'>
       <div className='w-1/3 items-center px-4'>

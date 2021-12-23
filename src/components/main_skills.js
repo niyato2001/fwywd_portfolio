@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import ProgressBar from './progressbar';
+import Headline from './headline_component';
+
+const headName = { japanese: 'スキル', english: 'SKILLS' };
 
 const Skills = () => {
   return (
@@ -9,12 +12,7 @@ const Skills = () => {
           <Image src='/introduction/skill.png' alt='skill' width={535} height={372} />
         </div>
         <div className='items-center w-1/2'>
-          <h1 className='inline w-1/2 text-black-font text-3xl font-bold mx-1 align-middle tracking-widest font-mono'>
-            スキル
-          </h1>
-          <p className='inline w-1/2 text-green-font font-semibold mx-1 align-middle tracking-wider'>
-            SKILLS
-          </p>
+          <Headline japanese={headName.japanese} english={headName.english} />
           <p className='text-black-font tracking-widest text-base leading-loose my-5'>
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト

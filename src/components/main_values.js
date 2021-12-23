@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import Value from './values_component';
+import Headline from './headline_component';
+
+const headName = { japanese: '価値観', english: 'VALUES' };
 
 const valueList = [
   { src: '/introduction/value1.png', alt: 'value1', name: '価値観01' },
@@ -12,13 +15,7 @@ const Values = () => {
     <div id='values' className=''>
       <div className='w-2/3 mx-auto bg-white -mb-72'>
         <div className='text-center py-12 mb-10'>
-          <h2
-            id='values'
-            className='text-black-font inline font-extrabold mr-4 text-3xl align-middle tracking-widest font-mono'
-          >
-            価値観
-          </h2>
-          <p className='inline mx-4 text-lg align-middle text-bold text-green-font'>VALUES</p>
+          <Headline japanese={headName.japanese} english={headName.english} />
         </div>
         <div className='bg-white'>
           <div className='flex text-center bg-white'>
