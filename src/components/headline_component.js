@@ -7,10 +7,10 @@ class Headline extends React.Component {
   render() {
     return (
       <div>
-        <h1 className='inline w-1/2 text-black-font text-3xl font-bold mx-1 align-middle tracking-widest font-mono'>
+        <h1 className='inline w-1/2 text-black-font text-3xl font-bold align-middle tracking-widest font-mono'>
           {this.props.japanese}
         </h1>
-        <p className='inline w-1/2 text-green-font font-semibold mx-1 align-middle tracking-wider'>
+        <p className='inline w-1/2 text-green-font font-semibold ml-3 align-middle tracking-wider'>
           {this.props.english}
         </p>
       </div>
