@@ -1,6 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import List from './list';
+
+const headerList = [
+  { link: '#about', name: 'ABOUT' },
+  { link: '#skills', name: 'SKILLS' },
+  { link: '#values', name: 'VALUES' },
+  { link: '#future', name: 'FUTURE' },
+];
 
 const Header = () => (
   <div>
@@ -11,26 +19,9 @@ const Header = () => (
 
       <div className='float-right mr-2'>
         <ul className='text-green-font h-24 flex items-center font-bold tracking-wider text-lg'>
-          <li className='mx-5'>
-            <Link href='#about'>
-              <a className=''>ABOUT</a>
-            </Link>
-          </li>
-          <li className='mx-5'>
-            <Link href='#skills'>
-              <a className=''>SKILLS</a>
-            </Link>
-          </li>
-          <li className='mx-5'>
-            <Link href='#values'>
-              <a className=''>VALUES</a>
-            </Link>
-          </li>
-          <li className='mx-5'>
-            <Link href='#future'>
-              <a className=''>FUTURE</a>
-            </Link>
-          </li>
+          {headerList.map((listItem, index) => {
+            return <List link={listItem.link} name={listItem.name} key={index} />;
+          })}
         </ul>
       </div>
     </div>
