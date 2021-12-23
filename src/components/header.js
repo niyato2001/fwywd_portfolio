@@ -19,9 +19,9 @@ const Header = () => (
 
       <div className='float-right mr-2'>
         <ul className='text-green-font h-24 flex items-center font-bold tracking-wider text-lg'>
-          {headerList.map((listItem, index) => (
-            <List link={listItem.link} name={listItem.name} key={index} />
-          ))}
+          {headerList.map((listItem, index) => {
+            return <List link={listItem.link} name={listItem.name} key={index} />;
+          })}
         </ul>
       </div>
     </div>
