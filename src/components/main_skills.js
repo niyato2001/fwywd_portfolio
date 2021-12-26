@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='h-auto bg-skills -mt-16 bg-cover bg-center text-center laptop_l:text-justify'
+      className='h-auto bg-skills -mt-24 bg-cover bg-center text-center laptop_l:text-justify'
     >
       <div className='w-5/6 laptop_l:w-2/3 py-20 laptop_l:flex mx-auto laptop_l:py-32'>
         <div className='hidden laptop_l:block items-center w-1/2 mt-16 mx-7'>

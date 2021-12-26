@@ -16,7 +16,7 @@ const AboutList = [
 ];
 
 const About = () => (
-  <div id='about' className='bg-white laptop_l:bg-about-bg laptop_l:bg-cover'>
+  <div id='about' className='bg-center laptop_l:bg-about-bg bg-cover'>
     <div className='w-72 py-5 laptop_l:py-20 mx-auto text-center'>
       <Headline japanese={headName.japanese} english={headName.english} />
     </div>
@@ -34,7 +34,7 @@ const About = () => (
         );
       })}
     </div>
-    <div className='h-16 laptop_l:h-24'></div>
+    <div className='h-20 laptop_l:h-24'></div>
   </div>
 );
 
