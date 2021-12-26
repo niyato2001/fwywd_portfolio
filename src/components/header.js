@@ -12,7 +12,7 @@ const headerList = [
 
 const Header = () => (
   <div>
-    <div className='overflow-hidden w-full h-24'>
+    <div className='w-full h-24'>
       <div className='float-left'>
         <Image src='/introduction/logo.png' alt='Head log' width={192} height={96} />
       </div>
