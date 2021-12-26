@@ -4,7 +4,7 @@ import Headline from './headline_component';
 const headName = { japanese: '3年後にやりたいこと', english: 'FUTURE' };
 
 const Future = () => (
-  <div className='h-auto w-full bg-future bg-cover'>
+  <div className='h-auto w-full bg-future bg-cover bg-center'>
     <div className='h-96'></div>
     <div className='h-auto'></div>
     <div className='w-2/3 mx-auto pb-11 flex'>
