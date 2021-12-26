@@ -6,7 +6,7 @@ import Main from '../components/main';
 
 export default function Home() {
   return (
-    <div>
+    <div box-border>
       <Head>
         <title>自己紹介</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />

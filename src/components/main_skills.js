@@ -6,7 +6,7 @@ const headName = { japanese: 'スキル', english: 'SKILLS' };
 
 const Skills = () => {
   return (
-    <div id='skills' className='h-auto bg-skills -mt-12 bg-cover'>
+    <div id='skills' className='h-auto bg-skills -mt-16 bg-cover'>
       <div className='w-2/3 flex mx-auto py-32'>
         <div className='items-center w-1/2 mt-16 mx-7'>
           <Image src='/introduction/skill.png' alt='skill' width={535} height={372} />
