@@ -8,11 +8,11 @@ class List extends React.Component {
   }
   render() {
     return (
-      <li className='mx-5'>
+      <div className='inline mx-2 laptop_l:mx-5'>
         <Link href={this.props.link}>
           <a>{this.props.name}</a>
         </Link>
-      </li>
+      </div>
     );
   }
 }

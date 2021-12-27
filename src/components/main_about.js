@@ -16,11 +16,11 @@ const AboutList = [
 ];
 
 const About = () => (
-  <div id='about' className='bg-about-bg bg-cover'>
-    <div className='w-72 py-20 mx-auto text-center'>
+  <div id='about' className='bg-center laptop_l:bg-about-bg bg-cover'>
+    <div className='w-72 py-5 laptop_l:py-20 mx-auto text-center'>
       <Headline japanese={headName.japanese} english={headName.english} />
     </div>
-    <div className='w-2/3 h-96 flex mx-auto items-end text-center'>
+    <div className='w-2/3 h-auto flex  mx-auto items-end text-center flex-wrap'>
       {AboutList.map((AboutItem, index) => {
         return (
           <Aboutcomponent
@@ -34,7 +34,7 @@ const About = () => (
         );
       })}
     </div>
-    <div className='h-24'></div>
+    <div className='h-20 laptop_l:h-24'></div>
   </div>
 );
 

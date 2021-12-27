@@ -3,6 +3,9 @@ module.exports = {
   purge: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      laptop_l: '1440px',
+    },
     extend: {
       backgroundImage: {
         'about-bg': "url('/introduction/bg-about.png')",
