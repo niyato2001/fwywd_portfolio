@@ -5,4 +5,11 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
-}
+};
+
+const tailwindcss = require('tailwindcss');
+
+mix.sass('resources/sass/app.scss', 'public/css').options({
+  processCssUrls: false,
+  postCss: [tailwindcss('./path/to/your/tailwind.config.js')],
+});

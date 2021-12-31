@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Footer from '../components/footer';
 import Image from 'next/image';
+import Footer from '../components/footer';
 import Header from '../components/header';
 import Main from '../components/main';
 
