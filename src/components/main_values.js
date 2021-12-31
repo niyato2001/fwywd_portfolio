@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Value from './values_component';
 import Headline from './headline_component';
+import Value from './values_component';
 
 const headName = { japanese: '価値観', english: 'VALUES' };
 
