@@ -8,9 +8,9 @@ class List extends React.Component {
   }
   render() {
     return (
-      <div className='inline mx-2 laptop_l:mx-5'>
+      <div className='table-cell px-2 h-10 hover:bg-green-prolight laptop_l:px-5 laptop_l:h-24'>
         <Link href={this.props.link}>
-          <a>{this.props.name}</a>
+          <a className='block h-10 py-2 laptop_l:h-24 laptop_l:py-8'>{this.props.name}</a>
         </Link>
       </div>
     );
