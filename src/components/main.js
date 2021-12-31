@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import About from './main_about';
+import Future from './main_future';
 import Skills from './main_skills';
 import Values from './main_values';
-import Future from './main_future';
 
 const Main = () => (
   <div className='w-full'>

@@ -1,6 +1,5 @@
-import React from 'react';
-import react from 'react';
 import Image from 'next/image';
+import React from 'react';
 
 class Aboutcomponent extends React.Component {
   constructor(props) {

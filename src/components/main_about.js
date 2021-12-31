@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Headline from './headline_component';
 import Aboutcomponent from './about_component';
+import Headline from './headline_component';
 
 const headName = { japanese: '私について', english: 'ABOUT' };
 const AboutList = [
