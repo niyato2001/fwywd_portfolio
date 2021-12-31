@@ -1,13 +1,13 @@
 import Image from 'next/image';
 
 const Footer = () => (
-  <div className='bg-black-bg text-center w-full h-auto text-white -mt-2 laptop_l:mt-0'>
+  <div className='relative z-10 bg-black-bg text-center w-full h-auto text-white -mt-2 laptop_l:mt-0'>
     <div>
       <div className='w-full laptop_l:hidden ml-auto mr-auto py-6 tracking-widest flex flex-wrap'>
-        <p className='w-1/2  py-3 pl-16'>お問い合わせ</p>
-        <p className='w-1/2  py-3 pr-16'>助成金について</p>
-        <p className='w-7/12  py-3 pl-4'>特定商取引法に基づく表記</p>
-        <p className='w-5/12  align-middle py-3'>プライバシーポリシー</p>
+        <p className='w-1/2 text-xs  py-3 pl-12'>お問い合わせ</p>
+        <p className='w-1/2 text-xs  py-3 pr-12'>助成金について</p>
+        <p className='w-7/12 text-xs py-3 pl-2'>特定商取引法に基づく表記</p>
+        <p className='w-5/12 text-xs align-middle py-3'>プライバシーポリシー</p>
       </div>
       <div className='hidden laptop_l:block ml-auto mr-auto py-10 tracking-wide'>
         <span className='text-xs mx-1 align-middle'>CREATED BY</span>
