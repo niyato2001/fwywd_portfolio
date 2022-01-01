@@ -11,9 +11,7 @@ export default function Home() {
         <title>自己紹介</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
-      <Header />
       <Main />
-      <Footer />
     </div>
   );
 }
