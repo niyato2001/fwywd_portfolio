@@ -15,7 +15,8 @@
         }
       }
     ]
-  }
+  },
+  "ignorePatterns": ["next-sitemap.js"]
   //"semi":["error","always"]
   //}
 }
