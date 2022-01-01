@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "analyze": "cross-env ANALYZE=true next build",
     "dev": "next dev",
     "build": "next build && next export && next-sitemap --config next-sitemap.js",
     "start": "next start",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@headlessui/react": "^1.4.2",
+    "@next/bundle-analyzer": "^12.0.7",
     "autoprefixer": "^10.2.6",
     "eslint": "^8.4.1",
     "eslint-config-next": "^12.0.7",
