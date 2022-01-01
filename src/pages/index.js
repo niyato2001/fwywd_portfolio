@@ -9,7 +9,6 @@ export default function Home() {
     <div box-border>
       <Head>
         <title>自己紹介</title>
-        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Main />
     </div>
