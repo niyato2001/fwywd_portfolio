@@ -12,7 +12,10 @@ const Skills = () => {
     >
       <div className='w-5/6 laptop_l:w-2/3 py-20 laptop_l:flex mx-auto laptop_l:py-32'>
         <div className='hidden laptop_l:block items-center w-1/2 mt-16 mx-7'>
-          <Image src='/introduction/skill.png' alt='skill' width={535} height={372} />
+          <Image src='/introduction/skill.webp' alt='skill' width={535} height={372} />
+          {
+            //Webpファイルを使用。ブラウザにより表示されないことがあるかも
+          }
         </div>
         <div className='w-full text-center py-5 items-center laptop_l:w-1/2 laptop_l:py-0 laptop_l:text-left'>
           <Headline japanese={headName.japanese} english={headName.english} />

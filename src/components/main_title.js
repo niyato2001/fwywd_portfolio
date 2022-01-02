@@ -18,7 +18,7 @@ const Title = () => (
         className='w-1/2 h-auto mx-auto text-center pb-5
       laptop_l:text-right laptop_l:ml-auto laptop_l:mr-12 laptop_l:py-12 laptop_l:h-full'
       >
-        <Image src='/introduction/hero.png' alt='header' width={560} height={480} />
+        <Image src='/introduction/hero-min.png' alt='header' width={560} height={480} />
       </div>
     </div>
   </div>
