@@ -4,10 +4,10 @@ import Link from 'next/link';
 import List from './list';
 
 const headerList = [
-  { link: '/#about', name: 'ABOUT' },
-  { link: '/#skills', name: 'SKILLS' },
-  { link: '/#values', name: 'VALUES' },
-  { link: '/#future', name: 'FUTURE' },
+  { link: 'about', name: 'ABOUT' },
+  { link: 'skills', name: 'SKILLS' },
+  { link: 'values', name: 'VALUES' },
+  { link: 'future', name: 'FUTURE' },
 ];
 
 const Header = () => (
