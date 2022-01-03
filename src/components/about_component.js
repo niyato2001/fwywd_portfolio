@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-class Aboutcomponent extends React.Component {
+class AboutComponent extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -13,6 +13,7 @@ class Aboutcomponent extends React.Component {
           alt={this.props.alt}
           width={this.props.width}
           height={this.props.height}
+          quality={100}
         />
         <p className='text-green-font text-2xl font-extrabold my-3 laptop_l:my-7'>
           {this.props.name}
@@ -26,4 +27,4 @@ class Aboutcomponent extends React.Component {
   }
 }
 
-export default Aboutcomponent;
+export default AboutComponent;

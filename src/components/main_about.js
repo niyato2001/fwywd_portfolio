@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Aboutcomponent from './about_component';
+import AboutComponent from './about_component';
 import Headline from './headline_component';
 
 const headName = { japanese: '私について', english: 'ABOUT' };
@@ -23,7 +23,7 @@ const About = () => (
     <div className='w-2/3 h-auto flex  mx-auto items-end text-center flex-wrap'>
       {AboutList.map((AboutItem, index) => {
         return (
-          <Aboutcomponent
+          <AboutComponent
             src={AboutItem.src}
             alt={AboutItem.alt}
             width={AboutItem.width}
