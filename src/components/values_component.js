@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-class Value extends React.Component {
+export default class Value extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -20,5 +20,3 @@ class Value extends React.Component {
     );
   }
 }
-
-export default Value;

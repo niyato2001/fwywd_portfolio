@@ -2,7 +2,7 @@ import Head from 'next/head';
 import PageFooter from './PageFooter';
 import PageHeader from './PageHeader';
 
-const Layout = ({ children }) => {
+export default function Layout({ children }) {
   return (
     <div>
       <PageHeader />
@@ -10,6 +10,4 @@ const Layout = ({ children }) => {
       <PageFooter />
     </div>
   );
-};
-
-export default Layout;
+}
