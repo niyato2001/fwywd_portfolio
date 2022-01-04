@@ -1,13 +1,13 @@
 import Head from 'next/head';
+import PageFooter from './PageFooter';
 import PageHeader from './PageHeader';
-import Footer from './footer';
 
 const Layout = ({ children }) => {
   return (
     <div>
       <PageHeader />
       <main>{children}</main>
-      <Footer />
+      <PageFooter />
     </div>
   );
 };
