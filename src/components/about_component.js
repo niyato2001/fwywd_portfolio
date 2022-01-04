@@ -7,7 +7,7 @@ class AboutComponent extends React.Component {
   }
   render() {
     return (
-      <div className='w-full laptop_l:w-1/3 items-center p-4'>
+      <div className='items-center p-4 w-full laptop_l:w-1/3'>
         <Image
           src={this.props.src}
           alt={this.props.alt}
@@ -15,10 +15,10 @@ class AboutComponent extends React.Component {
           height={this.props.height}
           quality={100}
         />
-        <p className='text-green-font text-2xl font-extrabold my-3 laptop_l:my-7'>
+        <p className='my-3 text-2xl font-extrabold text-green-font laptop_l:my-7'>
           {this.props.name}
         </p>
-        <p className='text-black-font tracking-wider text-sm leading-loose text-left'>
+        <p className='text-sm tracking-wider leading-loose text-left text-black-font'>
           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
         </p>

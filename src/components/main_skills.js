@@ -8,25 +8,25 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='h-auto bg-skills -mt-24 bg-cover bg-center text-center laptop_l:text-justify'
+      className='-mt-24 h-auto text-center bg-center bg-cover bg-skills laptop_l:text-justify'
     >
-      <div className='w-5/6 laptop_l:w-2/3 py-20 laptop_l:flex mx-auto laptop_l:py-32'>
-        <div className='hidden laptop_l:block items-center w-1/2 mt-16 mx-7'>
+      <div className='py-20 mx-auto w-5/6 laptop_l:flex laptop_l:py-32 laptop_l:w-2/3'>
+        <div className='hidden items-center mx-7 mt-16 w-1/2 laptop_l:block'>
           <Image src='/introduction/skill.webp' alt='skill' width={535} height={372} />
           {
             //Webpファイルを使用。ブラウザにより表示されないことがあるかも
           }
         </div>
-        <div className='w-full text-center py-5 items-center laptop_l:w-1/2 laptop_l:py-0 laptop_l:text-left'>
+        <div className='items-center py-5 w-full text-center laptop_l:py-0 laptop_l:w-1/2 laptop_l:text-left'>
           <Headline japanese={headName.japanese} english={headName.english} />
-          <div className='block laptop_l:hidden items-center w-full text-center'>
+          <div className='block items-center w-full text-center laptop_l:hidden'>
             <Image src='/introduction/skill.png' alt='skill' width={535} height={372} />
           </div>
-          <p className='text-black-font tracking-widest text-base leading-loose my-5 text-justify'>
+          <p className='my-5 text-base tracking-widest leading-loose text-justify text-black-font'>
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
-          <div className='bg-white p-7'>
+          <div className='p-7 bg-white'>
             <ProgressBar name='SKILLSKILL' percent='40%' />
             <ProgressBar name='SKILLSKILL' percent='40%' />
             <ProgressBar name='SKILLSKILL' percent='40%' />

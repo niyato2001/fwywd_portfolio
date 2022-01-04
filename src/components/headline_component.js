@@ -7,10 +7,10 @@ class Headline extends React.Component {
   render() {
     return (
       <div>
-        <h1 className='laptop_l:inline laptop_l:w-1/2 w-full text-black-font text-2xl font-bold align-middle tracking-widest font-mono box text-center'>
+        <h1 className='w-full font-mono text-2xl font-bold tracking-widest text-center text-black-font align-middle laptop_l:inline laptop_l:w-1/2'>
           {this.props.japanese}
         </h1>
-        <p className='laptop_l:inline laptop_l:w-1/2 w-full text-green-font font-semibold laptop_l:ml-3 align-middle tracking-wider box text-center'>
+        <p className='w-full font-semibold tracking-wider text-center text-green-font align-middle laptop_l:inline laptop_l:ml-3 laptop_l:w-1/2'>
           {this.props.english}
         </p>
       </div>

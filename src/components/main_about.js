@@ -16,11 +16,11 @@ const AboutList = [
 ];
 
 const About = () => (
-  <div id='about' className='bg-center laptop_l:bg-about-bg bg-cover'>
-    <div className='w-72 py-5 laptop_l:py-20 mx-auto text-center'>
+  <div id='about' className='bg-center bg-cover laptop_l:bg-about-bg'>
+    <div className='py-5 mx-auto w-72 text-center laptop_l:py-20'>
       <Headline japanese={headName.japanese} english={headName.english} />
     </div>
-    <div className='w-2/3 h-auto flex  mx-auto items-end text-center flex-wrap'>
+    <div className='flex flex-wrap items-end mx-auto w-2/3 h-auto text-center'>
       {AboutList.map((AboutItem, index) => {
         return (
           <AboutComponent

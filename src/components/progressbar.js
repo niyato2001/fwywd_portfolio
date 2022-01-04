@@ -7,14 +7,14 @@ class ProgressBar extends React.Component {
   render() {
     return (
       <div>
-        <p className='text-green-font font-semibold tracking-wider text-justify'>
+        <p className='font-semibold tracking-wider text-justify text-green-font'>
           {this.props.name}
         </p>
         <div className='flex items-center'>
           <div className='w-full h-3.5 bg-green-prolight rounded'>
-            <div className='h-3.5 bg-green-prodark w-2/5 rounded-l'></div>
+            <div className='w-2/5 h-3.5 bg-green-prodark rounded-l'></div>
           </div>
-          <span className=' text-green-font tracking-wider mx-4'>{this.props.percent}</span>
+          <span className='mx-4 tracking-wider text-green-font'>{this.props.percent}</span>
         </div>
       </div>
     );
