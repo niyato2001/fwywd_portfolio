@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-class AboutComponent extends React.Component {
+export default class AboutComponent extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -26,5 +26,3 @@ class AboutComponent extends React.Component {
     );
   }
 }
-
-export default AboutComponent;

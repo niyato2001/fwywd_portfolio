@@ -15,27 +15,27 @@ const AboutList = [
   { src: '/introduction/about-3.png', alt: 'About3', width: 245, height: 149, name: '性格' },
 ];
 
-const About = () => (
-  <div id='about' className='bg-center bg-cover laptop_l:bg-about-bg'>
-    <div className='py-5 mx-auto w-72 text-center laptop_l:py-20'>
-      <Headline japanese={headName.japanese} english={headName.english} />
+export default function About() {
+  return (
+    <div id='about' className='bg-center bg-cover laptop_l:bg-about-bg'>
+      <div className='py-5 mx-auto w-72 text-center laptop_l:py-20'>
+        <Headline japanese={headName.japanese} english={headName.english} />
+      </div>
+      <div className='flex flex-wrap items-end mx-auto w-2/3 h-auto text-center'>
+        {AboutList.map((AboutItem, index) => {
+          return (
+            <AboutComponent
+              src={AboutItem.src}
+              alt={AboutItem.alt}
+              width={AboutItem.width}
+              height={AboutItem.height}
+              name={AboutItem.name}
+              key={index}
+            />
+          );
+        })}
+      </div>
+      <div className='h-20 laptop_l:h-24'></div>
     </div>
-    <div className='flex flex-wrap items-end mx-auto w-2/3 h-auto text-center'>
-      {AboutList.map((AboutItem, index) => {
-        return (
-          <AboutComponent
-            src={AboutItem.src}
-            alt={AboutItem.alt}
-            width={AboutItem.width}
-            height={AboutItem.height}
-            name={AboutItem.name}
-            key={index}
-          />
-        );
-      })}
-    </div>
-    <div className='h-20 laptop_l:h-24'></div>
-  </div>
-);
-
-export default About;
+  );
+}

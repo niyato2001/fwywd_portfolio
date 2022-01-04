@@ -4,7 +4,7 @@ import ProgressBar from './progressbar';
 
 const headName = { japanese: 'スキル', english: 'SKILLS' };
 
-const Skills = () => {
+export default function Skills() {
   return (
     <div
       id='skills'
@@ -37,6 +37,4 @@ const Skills = () => {
       <div className='h-10'></div>
     </div>
   );
-};
-
-export default Skills;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Headline extends React.Component {
+export default class Headline extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -17,5 +17,3 @@ class Headline extends React.Component {
     );
   }
 }
-
-export default Headline;
