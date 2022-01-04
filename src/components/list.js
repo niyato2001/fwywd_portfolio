@@ -9,11 +9,11 @@ class List extends React.Component {
   }
   render() {
     return (
-      <div className='table-cell px-2 h-10 hover:bg-green-prolight laptop_l:px-5 laptop_l:h-24 duration-1000'>
+      <div className='table-cell px-2 h-10 hover:bg-green-prolight duration-1000 laptop_l:px-5 laptop_l:h-24'>
         <Scroll
           to={this.props.link}
           smooth={true}
-          className='block h-10 py-2 laptop_l:h-24 laptop_l:py-8'
+          className='block py-2 h-10 laptop_l:py-8 laptop_l:h-24'
         >
           {this.props.name}
         </Scroll>
