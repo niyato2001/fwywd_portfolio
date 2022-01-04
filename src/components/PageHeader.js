@@ -10,7 +10,7 @@ const headerList = [
   { link: 'future', name: 'FUTURE' },
 ];
 
-const Header = () => (
+const PageHeader = () => (
   <div>
     <div className='w-full text-center h-auto laptop_l:h-24'>
       <div className='w-11/12 mx-auto float-none laptop_l:float-left laptop_l:w-auto'>
@@ -39,4 +39,4 @@ const Header = () => (
   </div>
 );
 
-export default Header;
+export default PageHeader;

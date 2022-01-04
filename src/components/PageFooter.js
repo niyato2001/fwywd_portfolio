@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Footer = () => (
+const PageFooter = () => (
   <div className='relative z-10 bg-black-bg text-center w-full h-auto text-white -mt-2 laptop_l:mt-0'>
     <div>
       <div className='w-full laptop_l:hidden ml-auto mr-auto py-6 tracking-widest flex flex-wrap'>
@@ -33,4 +33,4 @@ const Footer = () => (
   </div>
 );
 
-export default Footer;
+export default PageFooter;

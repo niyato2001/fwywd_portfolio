@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-const Title = () => (
+const Hero = () => (
   <div>
     <div
       className='bg-green-bg w-full h-auto flex-none font-mono flex flex-wrap 
@@ -24,4 +24,4 @@ const Title = () => (
   </div>
 );
 
-export default Title;
+export default Hero;
