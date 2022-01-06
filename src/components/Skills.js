@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Headline from './Headline';
-import ProgressBar from './ProgressBar';
+import ProgressBar from './progressbar';
 
 const headName = { japanese: 'スキル', english: 'SKILLS' };
 
