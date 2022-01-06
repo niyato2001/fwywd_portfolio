@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import List from './list';
+import HeaderList from './HeaderList';
 
 const headerList = [
   { link: 'about', name: 'ABOUT' },
@@ -33,7 +33,7 @@ text-green-font -mt-3 mx-auto h-10 justify-center
 '
           >
             {headerList.map((listItem, index) => {
-              return <List link={listItem.link} name={listItem.name} key={index} />;
+              return <HeaderList link={listItem.link} name={listItem.name} key={index} />;
             })}
           </div>
         </div>

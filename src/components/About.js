@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import AboutComponent from './about_component';
-import Headline from './headline_component';
+import AboutItems from './AboutItems';
+import Headline from './Headline';
 
 const headName = { japanese: '私について', english: 'ABOUT' };
 const AboutList = [
@@ -24,7 +24,7 @@ export default function About() {
       <div className='flex flex-wrap items-end mx-auto w-2/3 h-auto text-center'>
         {AboutList.map((AboutItem, index) => {
           return (
-            <AboutComponent
+            <AboutItems
               src={AboutItem.src}
               alt={AboutItem.alt}
               width={AboutItem.width}

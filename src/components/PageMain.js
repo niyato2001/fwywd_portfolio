@@ -1,11 +1,11 @@
 import Image from 'next/image';
+import About from './About';
+import Future from './Future';
 import Hero from './Hero';
-import About from './main_about';
-import Future from './main_future';
-import Skills from './main_skills';
-import Values from './main_values';
+import Skills from './Skills';
+import Values from './Values';
 
-export default function Main() {
+export default function PageMain() {
   return (
     <div className='w-full'>
       <Hero />

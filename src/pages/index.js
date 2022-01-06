@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Main from '../components/main';
+import PageMain from '../components/PageMain';
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <meta property='fb:admins' content='adminID（15文字の半角数字）' />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
-      <Main />
+      <PageMain />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-export default class Value extends React.Component {
+export default class ValueItems extends React.Component {
   constructor(props) {
     super(props);
   }
