@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-export default class AboutComponent extends React.Component {
+export default class AboutItems extends React.Component {
   constructor(props) {
     super(props);
   }

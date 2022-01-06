@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import AboutComponent from './about_component';
-import Headline from './headline_component';
+import AboutItems from './AboutItems';
+import Headline from './Headline';
 
 const headName = { japanese: '私について', english: 'ABOUT' };
-const AboutList = [
+const aboutList = [
   { src: '/introduction/about-1.png', alt: 'About1', width: 184, height: 157, name: '趣味' },
   {
     src: '/introduction/about-2.png',
@@ -22,9 +22,9 @@ export default function About() {
         <Headline japanese={headName.japanese} english={headName.english} />
       </div>
       <div className='flex flex-wrap items-end mx-auto w-2/3 h-auto text-center'>
-        {AboutList.map((AboutItem, index) => {
+        {aboutList.map((AboutItem, index) => {
           return (
-            <AboutComponent
+            <AboutItems
               src={AboutItem.src}
               alt={AboutItem.alt}
               width={AboutItem.width}

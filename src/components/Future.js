@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Headline from './headline_component';
+import Headline from './Headline';
 
 const headName = { japanese: '3年後にやりたいこと', english: 'FUTURE' };
 
