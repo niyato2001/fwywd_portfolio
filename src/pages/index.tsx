@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import PageMain from '../components/PageMain';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <div box-border>
       <Head>
