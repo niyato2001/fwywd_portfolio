@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function PageFooter() {
+export default function PageFooter(): JSX.Element {
   return (
     <div className='relative z-10 -mt-2 w-full h-auto text-center text-white bg-black-bg laptop_l:mt-0'>
       <div>
