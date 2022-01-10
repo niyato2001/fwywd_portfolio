@@ -10,7 +10,7 @@ const valueList = [
   { src: '/introduction/value3.png', alt: 'value3', name: '価値観03' },
 ];
 
-export default function Values() {
+export default function Values(): JSX.Element {
   return (
     <div id='values' className=''>
       <div className='mx-auto -mb-96 w-5/6 bg-white laptop_l:-mb-72 laptop_l:w-2/3'>
