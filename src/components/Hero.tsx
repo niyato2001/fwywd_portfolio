@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-export default function Hero() {
+export default function Hero(): JSX.Element {
   return (
-    <div>
+    <section>
       <div className='flex flex-wrap flex-none items-center pt-5 font-mono bg-green-bg laptop_l:flex-nowrap laptop_l:pt-0'>
         <div className='mr-auto ml-auto w-11/12 h-24 text-center laptop_l:ml-32 laptop_l:w-1/2 laptop_l:h-full laptop_l:text-left'>
           <h1 className='text-3xl font-extrabold tracking-widest text-white'>メインタイトル</h1>
@@ -15,6 +15,6 @@ export default function Hero() {
           <Image src='/introduction/hero-min.png' alt='header' width={560} height={480} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

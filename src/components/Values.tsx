@@ -10,9 +10,9 @@ const valueList = [
   { src: '/introduction/value3.png', alt: 'value3', name: '価値観03' },
 ];
 
-export default function Values() {
+export default function Values(): JSX.Element {
   return (
-    <div id='values' className=''>
+    <section id='values' className=''>
       <div className='mx-auto -mb-96 w-5/6 bg-white laptop_l:-mb-72 laptop_l:w-2/3'>
         <div className='mb-6 text-center laptop_l:mb-12'>
           <Headline japanese={headName.japanese} english={headName.english} />
@@ -32,6 +32,6 @@ export default function Values() {
           <div className='hidden relative z-10 bg-white rounded-b-lg laptop_l:block laptop_l:h-10'></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

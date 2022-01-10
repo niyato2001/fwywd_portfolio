@@ -1,8 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
 
-export default class ValueItems extends React.Component {
-  constructor(props) {
+interface Props {
+  src: string;
+  alt: string;
+  name: string;
+}
+
+export default class ValueItems extends React.Component<Props, {}> {
+  constructor(props: Props) {
     super(props);
   }
   render() {

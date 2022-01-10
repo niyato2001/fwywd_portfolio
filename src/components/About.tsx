@@ -15,9 +15,9 @@ const aboutList = [
   { src: '/introduction/about-3.png', alt: 'About3', width: 245, height: 149, name: '性格' },
 ];
 
-export default function About() {
+export default function About(): JSX.Element {
   return (
-    <div id='about' className='bg-center bg-cover laptop_l:bg-about-bg'>
+    <section id='about' className='bg-center bg-cover laptop_l:bg-about-bg'>
       <div className='py-5 mx-auto w-72 text-center laptop_l:py-20'>
         <Headline japanese={headName.japanese} english={headName.english} />
       </div>
@@ -36,6 +36,6 @@ export default function About() {
         })}
       </div>
       <div className='h-20 laptop_l:h-24'></div>
-    </div>
+    </section>
   );
 }

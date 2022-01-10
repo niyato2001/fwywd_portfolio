@@ -5,7 +5,7 @@ import Hero from './Hero';
 import Skills from './Skills';
 import Values from './Values';
 
-export default function PageMain() {
+export default function PageMain(): JSX.Element {
   return (
     <div className='w-full'>
       <Hero />

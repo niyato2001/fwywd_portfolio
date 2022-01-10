@@ -10,7 +10,7 @@ const headerList = [
   { link: 'future', name: 'FUTURE' },
 ];
 
-export default function PageHeader() {
+export default function PageHeader(): JSX.Element {
   return (
     <div>
       <div className='w-full h-auto text-center laptop_l:h-24'>
