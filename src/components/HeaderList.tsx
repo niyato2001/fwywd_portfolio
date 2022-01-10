@@ -2,8 +2,13 @@ import Link from 'next/link';
 import React from 'react';
 import { Link as Scroll } from 'react-scroll';
 
-export default class HeaderList extends React.Component {
-  constructor(props) {
+interface Props {
+  link: string;
+  name: string;
+}
+
+export default class HeaderList extends React.Component<Props, {}> {
+  constructor(props: Props) {
     super(props);
     this.state = {};
   }
