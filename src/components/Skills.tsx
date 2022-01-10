@@ -4,7 +4,7 @@ import ProgressBar from './ProgressBar';
 
 const headName = { japanese: 'スキル', english: 'SKILLS' };
 
-export default function Skills() {
+export default function Skills(): JSX.Element {
   return (
     <div
       id='skills'
