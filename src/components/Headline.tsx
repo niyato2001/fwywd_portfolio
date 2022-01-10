@@ -1,7 +1,12 @@
 import React from 'react';
 
-export default class Headline extends React.Component {
-  constructor(props) {
+interface Props {
+  japanese: string;
+  english: string;
+}
+
+export default class Headline extends React.Component<Props, {}> {
+  constructor(props: Props) {
     super(props);
   }
   render() {
