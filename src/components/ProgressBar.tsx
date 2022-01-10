@@ -1,7 +1,12 @@
 import React from 'react';
 
-export default class ProgressBar extends React.Component {
-  constructor(props) {
+interface Props {
+  name: string;
+  percent: string;
+}
+
+export default class ProgressBar extends React.Component<Props, {}> {
+  constructor(props: Props) {
     super(props);
   }
   render() {
