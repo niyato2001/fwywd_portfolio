@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-export default function Hero() {
+export default function Hero(): JSX.Element {
   return (
     <div>
       <div className='flex flex-wrap flex-none items-center pt-5 font-mono bg-green-bg laptop_l:flex-nowrap laptop_l:pt-0'>
