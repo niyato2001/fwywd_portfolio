@@ -6,7 +6,7 @@ const headName = { japanese: 'スキル', english: 'SKILLS' };
 
 export default function Skills(): JSX.Element {
   return (
-    <div
+    <section
       id='skills'
       className='-mt-24 h-auto text-center bg-center bg-cover bg-skills laptop_l:text-justify'
     >
@@ -35,6 +35,6 @@ export default function Skills(): JSX.Element {
         </div>
       </div>
       <div className='h-10'></div>
-    </div>
+    </section>
   );
 }

@@ -5,7 +5,7 @@ const headName = { japanese: '3年後にやりたいこと', english: 'FUTURE' }
 
 export default function Future(): JSX.Element {
   return (
-    <div className='w-full h-auto bg-center bg-cover bg-future'>
+    <section className='w-full h-auto bg-center bg-cover bg-future'>
       <div className='h-80'></div>
       <div className='h-auto'></div>
       <div className='flex flex-wrap justify-center pt-32 pb-0 mx-auto w-full laptop_l:flex-nowrap laptop_l:pt-2 laptop_l:pb-11 laptop_l:w-2/3'>
@@ -28,6 +28,6 @@ export default function Future(): JSX.Element {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
