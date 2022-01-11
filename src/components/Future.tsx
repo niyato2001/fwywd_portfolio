@@ -23,7 +23,7 @@ export default function Future(): JSX.Element {
           </div>
         </div>
         <div className='items-end mx-auto w-full laptop_l:w-1/2'>
-          <div className='items-end pb-0 pl-0 mb-0 laptop_l:items-stretch laptop_l:pl-10'>
+          <div className='items-end pl-0 text-center laptop_l:items-stretch laptop_l:pl-10'>
             <Image src='/introduction/future.png' alt='3年後' width={480} height={251} />
           </div>
         </div>
